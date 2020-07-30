@@ -1,9 +1,15 @@
+#content {
+
+  background-image: linear-gradient(to right, #7D97B1 ,#fff);
+  font-family: 'Recursive', sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000080;
+    background-color: #003568;
   }
   
   li {
@@ -19,12 +25,12 @@ ul {
   }
   
   li a:hover {
-    background-color:#4169E1;
+    background-color:#9c9c9c;
     text-decoration: none;
     color: #ffff;
     font-weight: bold;
   }
 
-  /* #welcome-section {
+  #welcome-section {
     justify-content: center;
-  } */
+  }
