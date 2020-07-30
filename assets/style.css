@@ -2,6 +2,7 @@
 
   background-image: linear-gradient(to right, #7D97B1 ,#fff);
   font-family: 'Recursive', sans-serif;
+  color: #003568;
 }
 
 ul {
@@ -10,6 +11,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #003568;
+    font-size: 24px;
   }
   
   li {
@@ -31,6 +33,15 @@ ul {
     font-weight: bold;
   }
 
-  #welcome-section {
-    justify-content: center;
+  .welcome-section {
+    text-align: center;
+    margin-top: 320px;
+    font-weight: bold;
+  }
+
+  #my-job {
+    text-align: right;
+    margin-right: 680px;
+    /* font-weight: bold; */
+    font-style: italic;
   }
