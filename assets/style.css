@@ -45,3 +45,16 @@ ul {
     /* font-weight: bold; */
     font-style: italic;
   }
+
+  .card {
+    margin: 5%;
+    width: 40%;
+    text-align: center;
+    margin-top: 80px;
+    float: left;
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
