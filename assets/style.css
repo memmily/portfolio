@@ -1,6 +1,6 @@
 #content {
 
-  background-image: linear-gradient(to right, #7D97B1 ,#fff);
+  background-image: linear-gradient(to right, #7D97B1 ,#fff, #7D97B1);
   font-family: 'Recursive', sans-serif;
   color: #003568;
 }
@@ -54,7 +54,23 @@ ul {
     float: left;
   }
 
+  .card-img-top {
+    width: 80%;
+  }
+
   .card-title {
     font-weight: bold;
-    font-size: 24px;
+    font-size:32px;
+    margin: 32px 32px;
+    color: #003568;
+    
+  }
+
+  div a:hover {
+    text-decoration: none;
+  }
+
+  .card-text {
+    font-weight: normal;
+    font-size:24px;
   }
